@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(36, 35, 35);
+    cursor: default;
+}
+
+body{
+    background-color:  rgb(230, 222, 208);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+
+.menu{
+    display: flex;
+    width: 95%;
+    height: 100%;
+    box-shadow: 0px 1px 1px 0px rgb(77, 75, 75);
+}
+
+.menu div{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.mainOptions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 120px;
+}
+
+span{
+    cursor: pointer;
+}
+
+.mainOptions div{
+    cursor: pointer;
+}
+
+.mainMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.userInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.userInfo span{
+    margin-left: 10px; 
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sideInfo{
+    margin-top: 35px;
+    width: 30%;
+    height: 685px;
+}
+
+.container{
+    margin-top: 35px;
+    width: 50%;
+    height: 685px;
+}
+
+.offer h1{
+    font-size: 80px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.offer h2{
+    font-size: 28px;
+}
+
+.offer h4{
+    margin-top: 130px;
+    font-size: 25px;
+}
+
+.offer h3{
+    width: 300px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.offer h5{
+    margin-top: 40px;
+    font-size: 16px;
+}
+
+.content{
+    margin-left: 150px;
+    display: flex;
+}
+
+.arrows{
+    width: 150px;
+    height: 150px;
+    display: flex;
+}
+
+.arrows span{
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.arrows span:hover{
+    scale: 1.1;
+    background-color: rgb(19, 18, 18);
+    color: rgb(212, 208, 208);
+}
+
+.arrow{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/*---*/
+
+#backImg{
+    margin-top: 275px;
+    margin-left: -31px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nextImg{
+    margin-top: 280px;
+    margin-left: 351px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#next{
+    margin-left: 10px;
+    margin-top: -1px;
+    position: absolute;
+}
+
+#logo{
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+}
+
+#menu{
+    align-items: start;
+}
+
+#bottle{
+    margin-left: 35px;
+}
+
+/*-images-*/
+
+#imgBackground{
+    background-image: url(https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Beach_1920.jpg?v=1029210661698833530);
+    border-radius: 50%;
+    width: 450px;
+    height: 500px;
+    margin-left: 30px;
+    position: absolute;
+    margin-top: 60px;
+    background-size: cover;
+}
+
+#imgBackground img{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 490px;
+    height: 490px;
+}
+
+#mark{
+    position: absolute;
+    margin-left: 400px;
+}
+
+@keyframes animarionInto{
+    from{
+        margin-top: -20px;
+        opacity: 0;
+    }to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+@keyframes ImageInto{
+    from{
+        scale: 0.6;
+    }to{
+        scale: 1.0;
+    }
+}
+
+@keyframes backAnimation {
+    from{
+        background-position: left;
+    }to{
+        background-position: right;
+
+    }
+}
