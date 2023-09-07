@@ -31,9 +31,6 @@
         overflow-x: hidden;
     }
 
-    header{
-    }
-
     main{
         width: 300px;
         display: flex;
