@@ -108,6 +108,6 @@ function beach(){
     img.style.width = "300px"
     img.style.height = "500px"
     img.style.marginLeft = "0px"
-    imgBackground.style.background = "url(https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Beach_1920.jpg?v=1029210661698833530)"
+    imgBackground.style.background = "url(https://i.pinimg.com/736x/ec/db/b8/ecdbb815892ad7b1c2740f2cd5aa13f1.jpg)"
     imgBackground.style.backgroundSize = "cover"
 }
