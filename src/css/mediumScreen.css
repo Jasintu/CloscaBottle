@@ -1,0 +1,114 @@
+@media (min-width: 1050px) and ( max-width: 1170px) {
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 1000px;
+    }
+
+    .sideInfo{
+        margin-top: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .container{
+        margin-left: -100px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media (min-width: 400px) and ( max-width: 1050px) {
+
+    body{
+        overflow-x: hidden;
+    }
+
+    header{
+    }
+
+    main{
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sideInfo{
+        width: 100%;
+        position: absolute;
+        top: 140%;
+        left: 52%;
+        position: absolute;
+        transform: translate(-50%, -60%);
+    }
+    
+    
+    .container{
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, -50%);
+    }
+
+    .content{
+        top: 5%;
+        left: 48%;
+        position: absolute;
+        transform: translate(-100%, -50%);
+    }    
+
+    #imgBackground{
+        width: 350px;
+        height: 400px;
+    }
+        
+    #imgBackground img{
+        width: 350px;
+        height: 400px;
+    }
+
+    #nextImg{
+        margin-left: 250px;
+        margin-left: 250px;
+    }
+
+    #mark{
+        width: 60px;
+    }
+
+    .offer h3{
+        word-wrap: break-word;
+        width: 500px;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%);
+    }
+
+    .offer h5{
+        margin-top: 70px;
+    }
+}
+
+@media screen and ( max-width: 400px) {
+
+    
+
+    .content{
+        top: 5%;
+        left: 45%;
+        position: absolute;
+        transform: translate(-100%, -50%);
+    }    
+
+    
+}

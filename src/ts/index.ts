@@ -99,5 +99,3 @@ function beach(){
     imgBackground.style.background = "url(https://cdn.shopify.com/s/files/1/0689/1443/t/34/assets/Beach_1920.jpg?v=1029210661698833530)"
     imgBackground.style.backgroundSize = "cover"
 }
-
-console.log(main);
