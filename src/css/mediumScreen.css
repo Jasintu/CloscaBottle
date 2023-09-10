@@ -25,7 +25,7 @@
     }
 }
 
-@media (min-width: 400px) and ( max-width: 1050px) {
+@media screen and ( max-width: 1050px) {
 
     body{
         overflow-x: hidden;
@@ -40,14 +40,14 @@
     }
 
     .sideInfo{
+        z-index: 1;
         width: 100%;
         position: absolute;
-        top: 140%;
+        top: 180%;
         left: 52%;
         position: absolute;
         transform: translate(-50%, -60%);
     }
-    
     
     .container{
         width: 100%;
@@ -59,12 +59,13 @@
 
     .content{
         top: 5%;
-        left: 48%;
+        left: 47%;
         position: absolute;
         transform: translate(-100%, -50%);
     }    
 
     #imgBackground{
+        top: 70%;
         width: 350px;
         height: 400px;
     }
@@ -75,7 +76,6 @@
     }
 
     #nextImg{
-        margin-left: 250px;
         margin-left: 250px;
     }
 
@@ -94,18 +94,6 @@
     .offer h5{
         margin-top: 70px;
     }
+
 }
 
-@media screen and ( max-width: 400px) {
-
-    
-
-    .content{
-        top: 5%;
-        left: 45%;
-        position: absolute;
-        transform: translate(-100%, -50%);
-    }    
-
-    
-}
