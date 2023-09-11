@@ -131,15 +131,15 @@
 
     .content{
         top: 5%;
-        left: 44%;
+        left: 50%;
         position: absolute;
         transform: translate(-100%, -50%);
     }    
 
     #imgBackground{
         top: 70%;
-        width: 290px;
-        height: 350px;
+        width: 240px;
+        height: 300px;
     }
         
     #imgBackground img{
@@ -149,7 +149,7 @@
 
     #nextImg{
         margin-top: 275px;
-        margin-left: 188px;
+        margin-left: 148px;
     }
 
     #mark{
@@ -180,4 +180,17 @@
         align-items: center;
         text-align: center;
     }
+    
+    .arrow{
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+
+    .arrows span{
+        width: 30px;
+        height: 30px;
+        
+    }
+    
 }
