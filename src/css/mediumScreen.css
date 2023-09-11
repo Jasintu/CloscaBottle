@@ -155,12 +155,12 @@
     #mark{
         position: absolute;
         width: 60px;
-        left: -150px;
+        left: -190px;
     }
 
     .offer h3{
         word-wrap: break-word;
-        width: 300px;
+        width: 350px;
         left: 50%;
         position: absolute;
         transform: translate(-50%);
