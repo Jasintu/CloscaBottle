@@ -147,9 +147,13 @@
         height: 500px;
     }
 
+    #backImg{
+        margin-left: -20px;
+    }
+
     #nextImg{
         margin-top: 275px;
-        margin-left: 148px;
+        margin-left: 138px;
     }
 
     #mark{
